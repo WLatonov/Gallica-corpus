@@ -1,0 +1,29 @@
+{
+  "periodical_ark": "cb327966882",
+  "periodical_title": "Journal de la Lozère",
+  "date_from": "1814-09-01",
+  "date_to": "1815-07-01",
+  "queries": [
+    "Alexandre",
+    "Empereur Alexandre",
+    "empereur de Russie",
+    "souverain russe"
+  ],
+  "context_require_any": [
+    "empereur",
+    "russie",
+    "russe",
+    "varsovie",
+    "pétersbourg",
+    "petersbourg",
+    "s. m."
+  ],
+  "query_context_require_any": {},
+  "output_directory": "../data/single_periodical",
+  "database_path": "../data/state_single_periodical.sqlite3",
+  "request_delay_seconds": 1.5,
+  "request_timeout_seconds": 45,
+  "max_retries": 5,
+  "download_images": true,
+  "download_alto": true
+}

@@ -1,0 +1,9 @@
+{
+  "event_pages": 11320,
+  "event_newspapers": 62,
+  "personalized_pages": 9616,
+  "personalized_newspapers": 71,
+  "overlap_pages": 1147,
+  "combined_unique_pages": 19789,
+  "deduplication_key": "issue_ark + digital_page"
+}

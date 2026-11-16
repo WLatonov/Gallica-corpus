@@ -1,0 +1,19 @@
+{
+  "date_from": "1812-01-01",
+  "date_to": "1825-12-31",
+  "searches": {
+    "Alexandre": [
+      "empereur", "russie", "russe", "varsovie", "pétersbourg",
+      "petersbourg", "moscou", "czar", "tsar", "s. m."
+    ],
+    "Alliance": ["sainte-alliance", "sainte alliance", "alliance sainte"]
+  },
+  "output_directory": "../data/corpus_all_newspapers_alexandre_sainte_alliance_1812_1825",
+  "database_path": "../data/state_all_newspapers_1812_1825.sqlite3",
+  "request_delay_seconds": 10,
+  "request_timeout_seconds": 60,
+  "max_retries": 8,
+  "download_images": true,
+  "download_alto": true,
+  "exclude_periodical_arks": ["cb327966882"]
+}
